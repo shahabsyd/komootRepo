@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f812788b-810d-41c8-9363-cec0586cb63a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/run-2020-12-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/run-2020-12-20.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/DiscoverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/DiscoverPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/SettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/SettingsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/SettingsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/SettingsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/DiscoverPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/DiscoverPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/SettingsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/SettingsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -119,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/SettingsPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java" />
       </list>
     </option>
   </component>
@@ -258,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestCases" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -429,7 +419,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -727,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
