@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SearchOverview Suite" parallel="methods" thread-count="2">
-    <test name="Search">
+    <test name="login">
         <classes>
-            <class name="de.fromatob.webdriver.homepage.SearchOverviewTest"/>
+            <class name="de.komoot.webdriver.homepage.LoginPageTest"/>
         </classes>
     </test>
 </suite>

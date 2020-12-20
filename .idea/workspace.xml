@@ -2,8 +2,331 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f812788b-810d-41c8-9363-cec0586cb63a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_attachments_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_rest_assured_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.fromatob.webdriver/webdriver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.komoot.webdriver/webdriver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.fromatob.webdriver/webdriver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.komoot.webdriver/webdriver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/testing.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/target/classes/testing.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/test-classes/suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/target/test-classes/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/debug-suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/test-suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/test-suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/004c1b3f-5d8a-4f77-8edc-2dea06dc63ae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/00c754cd-03fd-451b-9a30-b65060fda729-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/020728b5-2233-40d1-b3e8-e0a4d47dddba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/028efad4-4e65-4a40-b677-26fa2a448c43-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/029d361c-a27d-4bc2-9fdd-2018b80a8a01-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0568083f-8cc1-4983-b12b-036778f30afe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/05839fbc-4bfd-423f-803e-797ba4e563a1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/06d9209b-a70e-48dd-a03c-88fdc87ef0b1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/07eae3d6-124f-4e46-bd43-c8f1b84c6aa0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/07f3ed61-a5b4-4e9d-a2a6-0fcaec15b2d0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/08934dbe-5479-462c-9f4d-244dab1a99f1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0a0d03bd-65ce-42d1-bf3e-88bf738cdfe8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0fb19f6f-840d-4937-9915-1067ab866886-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/11f5db05-5e23-41cf-81b0-6025b790b77f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1298a06c-8cf5-4f72-be7a-034a46dc88b3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1366203c-8aa8-4878-bee5-7a3070864326-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/15427ea6-859b-4415-a438-50f5ececc682-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/15645f1a-82a5-4455-bd16-dbf7fe9c2d4e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/15ed8329-a54c-4760-a3af-62631d6eeb23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/16fb29be-cd9e-4f20-9585-2d57ce232374-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/177dcc1b-f420-4659-bdc8-13d2404e98a4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1acf0b18-c996-48bb-b2cd-2aab6df8796d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1b1856b8-6734-42d8-a5d4-17fc455708a6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1ba56200-a506-46dd-9e00-f8f0088eb248-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1bc20d65-6964-4d4d-bfee-d0843434c48d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1d058fe8-4284-4242-9223-cc450adb6e4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1de0f090-501c-4ce2-9e65-5a3cb00b7195-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1f251aca-fe72-4184-88e6-907f6c37a9d5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1f4e8e67-3286-47d9-bd13-550801b9b240-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1fd53bcd-60c1-4f02-beb7-435436a5195d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/20997220-bb3e-4445-a86c-3ea631266488-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2169dc84-bb12-44d6-82d3-00a6d81b11d2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/21be27e3-1027-4657-9991-f9711b8cedbd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/22978bdd-d58e-4d36-a204-d0a6bbc4ac3c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/22a3fed1-3e8b-4ed6-90a3-bde836fdbf79-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/23b50f24-0898-454e-96e6-54dba7ba011f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2729826f-a18c-418a-bdae-1711dbdd5e39-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/28d1fc53-c116-4627-a03e-568dfa214aa0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/298e7659-520e-49fe-ba0d-a7992a8aa028-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2c683cab-2b3a-49d5-9092-f7ed48a3632f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2c9bcad1-a996-4121-9b96-ab53677270a7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2ca1f013-54f3-465a-911d-c0bd0587a1ab-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2d88de43-7ff5-4d27-864c-785fbc398666-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/33fb0ef9-0425-4f67-93a6-371e645c893b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/342666d7-ffa7-40bf-9452-0a3974a4eaa6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/34409ea3-eaed-48b1-8f46-a055cdab327c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/35daecf5-d472-421b-b02d-b6852012ac65-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/36992cd1-51cf-4bc2-85b4-1ef6558f67e9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/36b8d0ab-b57c-4e56-b706-14001d2d92be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/36d65c02-8d4f-4eb6-bd14-bf8542439903-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3b7d7994-3880-4819-9a19-c571f95e11ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3c1bd734-e17e-49fc-9c24-264485b27faa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3c9a7a38-23a4-4084-a7d3-94cbdf6a1889-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3cc3ce1f-71f0-4216-806a-db41e46f1770-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3d1d124e-a00d-4b1a-83c8-b14f8339a808-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3f7796df-7c40-4027-932d-504d9fec87f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/40d82131-7406-4091-905c-0621893a172d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/40fcd1b0-97d3-4811-9ac2-70b542b61d17-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/42315a10-0c13-4f28-94ec-8f83f5535b21-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/42f54526-30b9-4484-95bd-b8cab6173f3a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/43840cbf-6baf-4193-b58f-e496571cd6a9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/45248b08-a89f-4ea1-b3a7-112fc0f721e1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4604ace8-3db5-48d0-81a2-0afd32b67eda-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4642ee27-de5b-4d2f-8fa3-854e2576b7d3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/47110bbd-46d2-4668-b027-183b784c0860-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/47bcab3c-4b67-400f-a565-37e26af8f1c3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/49ab1e4e-466d-4cc6-bca3-c1e18c3d3ce3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4a1e26d6-c8d2-4c40-8f0d-2d63ce559d0f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4a5428bf-422c-4ca5-b4b2-a635f4f5113a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4a5ee264-94a3-4469-bc18-0e6b45686630-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4b52427f-b596-4b4d-8cbd-4cb9141df5e4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4c754280-2741-4be1-becc-63c308125b7f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4d52f903-813d-4b72-88c7-91bdaaaefd6c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4e6f44d9-417b-46b4-a6bf-b3bf6b35949b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/508f9c43-5f8b-4e8b-a7f0-45c443800a80-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/53084219-4258-499f-8738-dceed22dcfd8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/532397df-8ab4-4648-9963-074255cf9614-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/53793613-fb7e-436c-ac87-6c6908eca54e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/54c4f6e7-ff8e-4b73-997b-5edd9428bc5c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/599c5eda-76c7-4a98-b41f-c24967c9e349-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5bce95aa-7702-429e-b200-df879c0bbe27-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5cbf9250-2930-41da-b474-8f51a84ee71f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5cf65a1a-e9a1-407a-a92c-d3a193433e0c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5eb214ab-8b41-4a48-b14d-1aeed2ad4a70-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/629d8e58-7241-4f0d-ad19-a2d448d1231c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/63fa37cb-c181-4260-8b24-33e9330a4b38-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/676e7b7e-82d4-4f5e-a82f-81c015729961-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/67e1c816-c8d5-4e57-8510-6dfcd457fbb1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/694c91ec-947f-492c-8f74-f432c50cca72-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6bee7f49-a3e2-4870-9734-b8418595a223-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6bfc3373-aef8-4c78-9daf-e320e70195fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6c0a4b0e-5794-4803-816a-2a8ff591a11c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7001fb50-f7b6-484c-9b84-1e91661b96a6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/748370dd-a15f-4a35-8b86-e38a6155b6ee-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7583f97b-aa25-427b-9e82-e3d5618367ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/76ca94f9-bf4c-41f3-be2b-d93e680607bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7737f021-4d76-4fb3-9933-24c48ba20aed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/77e4d83b-a611-4be1-b8f5-a1f9bb8774a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/785eb8e4-37de-43ad-9b9d-85544c705344-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/78767f0a-5a94-402c-8362-4b840714e90f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7a2b3c88-1dbe-4f28-97c2-d903729f371a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7b3c03ac-580b-4a56-8208-3eb8e496492d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7c7cb8f7-f9f1-48f0-98b9-9b728145daee-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7ef3de0d-6d9d-4c46-b4dd-2221396eccc0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/805b3861-161d-4524-8d9b-cf467e6a1f91-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/80f3d4de-2ca0-4e29-b502-a48b09c0b417-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/817faa91-d1a2-4d52-a057-1a9d6224528f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/82ea0c40-f9d6-4820-893a-46e495a460de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8306508e-e71e-4beb-a85a-c2573a3e27a4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/85e883db-8809-4f91-b1d5-238b0fff9cb5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8632ee37-713a-4574-b1a1-3c4107ccacae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/863b6874-24b5-406e-a690-7cd3c1de706d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/86f4f359-db64-48ad-9708-641072d2b6dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/879592a4-86a1-40ec-a227-94c56834e11f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/88f15f2a-553a-447a-ad05-4226ee621cf3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8b40f7d8-31eb-4b19-99c1-4cdb5272d7be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8c2dce12-269f-4522-a2ef-459357dc4b02-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8ca2ca31-e67a-43f7-a2fd-3f0c5f7804cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8d6c825a-3d3a-4509-bf46-c07080bf6eac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8d77ffe2-2baf-4cef-9273-97dcc533ce8e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8e1492a7-276b-4030-a042-bcd983c3e18e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8e4928a0-d825-4a17-bacd-010a5daae371-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/906e99d3-be1e-4d35-b432-3ee77acd899c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9168f9b7-76f9-4834-b570-3ee39a43ce5f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/918ad2b5-f04a-4a4c-8895-81b3bfe8b0c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/92017276-a11d-4fe9-bf02-8996e969c3d1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/925927f9-2e47-4bb9-b0cd-4a4e7eb823eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9308d229-7966-402a-b0e0-ae759c5d3f71-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/955ea255-8ce2-471d-8619-abdd152427fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9581857a-9cc8-46ba-bfe9-9951421ce8c0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/95f14725-4455-422b-8082-5caf239e847c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9624b28d-2fcc-4a72-98d2-5d604eaeb5fe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/965911f5-65c5-466b-9d66-63d3ff297127-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9bd48c15-149f-4bf4-958d-c989148d377f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9cb15408-229d-4745-b63d-34595c151395-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9eae09a4-8dd1-4188-93fa-0af3f3e47769-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9ed6b60e-fc9c-489d-a0fd-bcf094bf934c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a13f7eee-ccc2-4516-9ae6-b390d3baf67a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a27ff22b-1582-467d-b24e-5a5531b10b30-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a398dfa0-c85c-46b4-a14a-3baf7cc4717e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a4b61598-4727-4de4-929e-4809b76ef0e5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a533e54a-50bf-4216-b98a-1858bebb76bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a92e28a7-8054-4e43-9adf-fceaac948a9d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/aa3c0837-60b9-4c71-8546-da4a85c3aa64-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/aa56ef0d-110d-47c2-a031-64e896e67317-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ad97dc00-d60f-412a-93ce-1f1947545d5e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/afefeb4f-5796-4907-9f25-ffd09705528b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b3cc89fc-c6a4-49d6-86c5-6497201a248a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b436b944-5c2e-4ac0-b979-1d900dbf7b76-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b44ebb27-6936-40e7-b8a5-7244bae37728-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b552b904-ec9e-497b-80f1-82fe70e80e18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b5bc6932-89ad-434c-98d1-e7a81f235e50-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b63a45b1-0e14-4982-af45-44622b1a4b62-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b7b46030-09ec-4ac4-ae9f-a19931073111-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b84a9512-0e43-43c5-97dd-54d4f660dc29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b88c2f5b-68c3-45bb-906d-ac8ba0a64e8b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b9a4ae85-d3dd-4d7a-97f3-1ab5b7241db4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bba76c9f-206b-4d4d-ade9-ebc1864a7355-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bce321af-8786-4cb5-9923-01c708669ff5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bd690477-2649-4261-bfb9-766f28e2ed77-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/be374ded-547d-4da7-aa9f-f213a994ab02-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c33b027c-adc5-4f7d-9eb6-eda977a25f1c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c416f02b-f441-471d-a348-a3faa9e2891a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c59946e8-0002-4bb8-a1a8-c4d966ccecb9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c667c646-5c1a-450c-94fa-e892cce463b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c7fe09ee-a497-4fa4-bfec-31de67384197-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c8f6bb00-b916-4bdb-81b9-8e665d8167f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c9deddfc-1a36-428a-bc7d-c29ffe09fa54-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ca75ef49-a5e9-45cd-bb9f-115159a8c455-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cb06d389-9ea6-46fb-93a6-9f6a98f7e681-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cc38baf0-f03a-49bc-a5b8-930751357344-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ccaa3068-3aa5-494e-a41b-ed2a3298b4b9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ccafa511-6112-4f43-adae-f8676b524317-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cf4f6700-adad-4de9-884e-b15bac639fd7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d024d2f1-b34e-44c7-b42d-a02f21326baa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d0e4021c-3c49-4e0a-ae0d-e6a7ed0b2518-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d1084633-40cb-4537-95d4-413e7bc5cbca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d241164b-1c21-4cf5-808a-1bfaabab1622-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d2b7e46b-c7f9-456a-995e-3ae2afc64aa2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d69f7a61-248b-4cb1-8b9f-da7d4d5beaf6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d722d3b8-29bf-4c30-bf23-17412002b947-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d7a84ea2-f9a9-4e1a-bccf-37f0e0e9cf50-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d7fe4faf-3d86-42fa-9a42-1448f9e0c3b9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/dc0e06d5-f1e4-4f41-ab2e-a4831c938bd5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/dcb18568-30df-4751-b8b5-c4ce4ff36f77-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/deb31bd7-2e23-45bd-b5b5-eff1876f3e5b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/dfd219cd-86e4-4d38-be1c-e5bb6a7922d6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e18aab6c-d217-46e9-b673-217d9d808ba5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e197a63b-1b3a-4dd8-932e-8707a6be6152-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e5702702-acf0-4db6-9e76-3090140d6179-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e5f851ab-c5d3-4a2e-b97c-00b48ef8f0e0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e741cea4-ba40-4be8-9b3f-28ec487281eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/eca6e22e-4e8d-4c54-a245-d772d03e554a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ecb3ff5b-9bc3-4f26-9dbb-e8cc49ced2cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f1456faa-6e2a-4d68-b78b-7afc5aca49c0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f152026a-a6d3-43b7-8fd8-7bd1fcd044ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f1c7cf3e-5106-4078-90a5-2214f1c4280b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f51b74e6-73a8-4bb9-863f-0e25c3e86191-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f5d21971-700a-4590-93ae-29dab382e605-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f6a18922-eaf8-4f1b-8acd-cb10f0509775-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f6c976e2-242c-4dab-9c34-ef7836b68977-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f6dbc817-1de8-42ad-a43e-e471059c856e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f70ab51e-13c9-4b98-8706-7819e7e9be17-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f77a1313-6c08-4bde-85b4-e9b45a80abe1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f7d61e3e-9bed-4cc0-8609-9adceaff62a4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f7fd85f2-1785-4605-b1b9-999891f52998-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f8a73c1f-b03f-4d35-9d5d-515e364f4037-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f949b7d8-3aed-4a3b-b2db-447e12a8a4f3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f96ba61d-023b-478b-b246-00baafe8e30b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f9b80205-cbe6-4379-9898-341e41dfdeb5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fa7b47b6-410a-4630-af26-a416cb53fabb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fc1a93f8-34ee-469a-8fbd-1e5fbb7ce755-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fcaf58cd-6175-4fc3-a77c-efab82c8cde4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fe099d09-d8db-4e24-a5c1-d69b95cf2bd1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fea8ae4a-5eb6-4c7e-8051-1b94a3c19a21-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/webdriver.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/Utils/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/Utils/CommonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/configuration/ConfigurationConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/configuration/ConfigurationConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/configuration/ConfigurationEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/configuration/ConfigurationEnvironment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/DiscoverPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/DiscoverPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/SettingsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/komoot/webdriver/pageobject/homepage/SettingsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608483403509.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608483403509.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484368291.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484368291.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484482058.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484482058.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484597787.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484597787.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484817509.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608484817509.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608485180452.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608485180452.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608485880963.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608485880963.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608486210767.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608486210767.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608486277817.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608486277817.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608491585137.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608491585137.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608491665806.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608491665806.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608491796320.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/1608491796320.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608397733511_88923_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608402748168_89240_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608402853332_89306_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608402938710_89344_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608403265395_89411_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608403569203_89478_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608404414969_89628_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608464144993_91694_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608464246885_91753_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608464337453_91791_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608464392199_91828_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608464417006_91859_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608464539595_91900_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608464670576_91942_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608465626744_92171_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608466817265_92379_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608467048341_92432_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608467211452_92474_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608483385945_94311_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608484345937_94442_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608484464325_94492_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608484575230_94541_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608484796079_94597_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608485159584_94676_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608485860453_94841_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608485998768_94893_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608486176690_94959_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608486255809_95001_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608486295073_95036_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608491565593_95467_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608491648779_95514_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608491778551_95562_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/webdriver.1608491848514_95603_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/SettingsPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/SettingsPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/util/listener/AnnotationTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/util/listener/AnnotationTransformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/util/listener/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/util/listener/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/util/listener/TestRetryOnFailure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/util/listener/TestRetryOnFailure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/debug-suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/test-suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/suites/test-suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,10 +345,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/configuration/ConfigurationConstant.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/suites/test-suite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/AnnotationTransformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -33,35 +365,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="95" />
+            <state relative-caret-position="291">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/SettingsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestRetryOnFailure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/homepage/DiscoverPage.java">
+        <entry file="file://$PROJECT_DIR$/bin/target/test-classes/suite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/target/classes/testing.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/target/classes/log4j.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.komoot.webdriver/webdriver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-4904" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.komoot.webdriver/webdriver/pom.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -88,9 +450,7 @@
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestRetryOnFailure.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/AnnotationTransformer.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/suites/test-suite.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/suites/suite.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/suites/debug-suite.xml" />
         <option value="$PROJECT_DIR$/target/test-classes/allure.properties" />
         <option value="$PROJECT_DIR$/target/classes/testing.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/testing.properties" />
@@ -109,6 +469,14 @@
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/HomePageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/SettingsPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/komoot/webdriver/homepage/DiscoverPageTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/suites/test-suite.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/suites/debug-suite.xml" />
+        <option value="$PROJECT_DIR$/bin/target/test-classes/suite.xml" />
+        <option value="$PROJECT_DIR$/bin/target/classes/testing.properties" />
+        <option value="$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.fromatob.webdriver/webdriver/pom.properties" />
+        <option value="$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.komoot.webdriver/webdriver/pom.xml" />
       </list>
     </option>
   </component>
@@ -118,6 +486,22 @@
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="webdriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="webdriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="634" />
@@ -138,6 +522,149 @@
             <path>
               <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
               <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+              <item name="de.komoot.webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="komoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="de" type="462c0819:PsiDirectoryNode" />
+              <item name="komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
@@ -239,6 +766,31 @@
               <item name="webdriver" type="462c0819:PsiDirectoryNode" />
               <item name="listener" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Komoot" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -252,10 +804,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestCases" />
       <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
@@ -419,6 +972,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -445,86 +999,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.108763695" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/IPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/container/TripCardContainer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/steps/CommonSteps.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/5.14.0/selenide-5.14.0.jar!/com/codeborne/selenide/Selenide.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="432" column="5" lean-forward="true" selection-start-line="432" selection-start-column="5" selection-end-line="432" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/dataprovider/DataSupplier.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/test-suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/debug-suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/de/komoot/webdriver/api/BaseAPI.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/de/komoot/webdriver/api/response/container/OrderResponse.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/de/komoot/webdriver/BookingRunner.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/de/komoot/webdriver/configuration/ConfigurationConstant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#852#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/de/komoot/webdriver/steps/CommonSteps.class" />
-    <entry file="file://$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/TestCase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestRetryOnFailure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/allure.properties" />
-    <entry file="file://$PROJECT_DIR$/target/classes/testing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/reports/webdriver.1608402853332_89306_1.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/allure-results/d0e4021c-3c49-4e0a-ae0d-e6a7ed0b2518-container.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -533,30 +1014,9 @@
         <state relative-caret-position="-2495" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/run-2020-12-19.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/reports/webdriver.1608397733511_88923_1.log">
@@ -596,24 +1056,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testing.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -637,13 +1083,6 @@
     <entry file="file://$PROJECT_DIR$/target/allure-results/1acf0b18-c996-48bb-b2cd-2aab6df8796d-container.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/AnnotationTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/configuration/ConfigurationConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -655,13 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="95" />
         </state>
       </provider>
     </entry>
@@ -721,6 +1153,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/reports/1608483403509.0.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/debug-suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdriver.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/suites/debug-suite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/LoginPageTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/HomePageTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/de/komoot/webdriver/homepage/DiscoverPageTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/suites/test-suite.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/test-suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/AnnotationTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/komoot/webdriver/pageobject/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/komoot/webdriver/util/listener/TestRetryOnFailure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/target/test-classes/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/target/classes/testing.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/target/classes/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.komoot.webdriver/webdriver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/target/classes/META-INF/maven/de.komoot.webdriver/webdriver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4904" />
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -778,7 +1374,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

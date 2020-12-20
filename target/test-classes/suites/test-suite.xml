@@ -6,21 +6,15 @@
     </listeners>
     <test name="Smoke test">
         <classes>
-            <class name="de.komoot.webdriver.homepage.LoginPageTest"/>
-            <class name="de.komoot.webdriver.homepage.TravellerInfoTest"></class>
-            <class name="de.komoot.webdriver.homepage.SearchResultsByStationsTest"></class>
-            <class name="de.komoot.webdriver.homepage.FooterNavigationTest"></class>
-            <class name="de.komoot.webdriver.fullflow.FullBookingFlowTest"></class>
+            <class name="de.komoot.webdriver.homepage.LoginPageTest"></class>
         </classes>
     </test>
     <test name="Critical Path">
-        <packages>
-            <package name="de.fromatob.webdriver.account"></package>
-            <package name="de.fromatob.webdriver.search"></package>
-            <package name="de.fromatob.webdriver.tickets"></package>
-            <package name="de.fromatob.webdriver.booking"></package>
-            <package name="de.fromatob.webdriver.payment"></package>
-        </packages>
+        <classes>
+            <class name="de.komoot.webdriver.homepage.HomePageTest"></class>
+            <class name="de.komoot.webdriver.homepage.SettingsPageTest"></class>
+            <class name="de.komoot.webdriver.homepage.DiscoverPageTest"></class>
+        </classes>
 
     </test>
 </suite>
