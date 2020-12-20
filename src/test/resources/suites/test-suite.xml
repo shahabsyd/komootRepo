@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="de.komoot.webdriver.util.listener.TestListener"/>
+        <listener class-name="de.komoot.webdriver.util.listener.AnnotationTransformer"/>
+    </listeners>
+    <test name="Smoke test">
+        <classes>
+            <class name="de.komoot.webdriver.homepage.LoginPageTest"/>
+            <class name="de.komoot.webdriver.homepage.TravellerInfoTest"></class>
+            <class name="de.komoot.webdriver.homepage.SearchResultsByStationsTest"></class>
+            <class name="de.komoot.webdriver.homepage.FooterNavigationTest"></class>
+            <class name="de.komoot.webdriver.fullflow.FullBookingFlowTest"></class>
+        </classes>
+    </test>
+    <test name="Critical Path">
+        <packages>
+            <package name="de.fromatob.webdriver.account"></package>
+            <package name="de.fromatob.webdriver.search"></package>
+            <package name="de.fromatob.webdriver.tickets"></package>
+            <package name="de.fromatob.webdriver.booking"></package>
+            <package name="de.fromatob.webdriver.payment"></package>
+        </packages>
+
+    </test>
+</suite>

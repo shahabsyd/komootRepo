@@ -1,0 +1,192 @@
+[1608403265.687][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 14664
+[1608403265.687][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1608403266.314][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/fromatob/Desktop/Komoot/build/downloads/1608403264714_89411_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/fromatob/Desktop/Komoot/build/downloads/1608403264714_89411_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1608403266.317][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/fromatob/Desktop/Komoot/build/downloads/1608403264714_89411_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1608403266.317][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1608403266.318][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/zz/7jtc3nnd5734sl33gwllk6m80000gn/T/.com.google.Chrome.sYydU4 data:,
+[1608403268.559][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1608403268.575][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1608403268.865][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "/var/folders/zz/7jtc3nnd5734sl33gwllk6m80000gn/T/.com.google.Chrome.sYydU4"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50020"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "faac9dc4a7760d0cd24ecab82cd92832"
+}
+[1608403268.990][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] COMMAND MaximizeWindow {
+
+}
+[1608403268.990][INFO]: Waiting for pending navigations...
+[1608403268.992][INFO]: Done waiting for pending navigations. Status: ok
+[1608403269.117][INFO]: Waiting for pending navigations...
+[1608403269.118][INFO]: Done waiting for pending navigations. Status: ok
+[1608403269.118][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] RESPONSE MaximizeWindow {
+   "height": 777,
+   "width": 1280,
+   "x": 0,
+   "y": 23
+}
+[1608403269.130][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] COMMAND Navigate {
+   "url": "https://www.komoot.com/"
+}
+[1608403269.131][INFO]: Waiting for pending navigations...
+[1608403269.133][INFO]: Done waiting for pending navigations. Status: ok
+[1608403270.358][INFO]: Waiting for pending navigations...
+[1608403272.071][INFO]: Done waiting for pending navigations. Status: ok
+[1608403272.071][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] RESPONSE Navigate
+[1608403272.075][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] COMMAND GetTitle {
+
+}
+[1608403272.075][INFO]: Waiting for pending navigations...
+[1608403272.089][INFO]: Done waiting for pending navigations. Status: ok
+[1608403272.091][INFO]: Waiting for pending navigations...
+[1608403272.092][INFO]: Done waiting for pending navigations. Status: ok
+[1608403272.092][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] RESPONSE GetTitle "Komoot | Everything You Need To Explore More of the Great Outdoors"
+[1608403272.096][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] COMMAND Navigate {
+   "url": "https://www.komoot.com/"
+}
+[1608403272.097][INFO]: Waiting for pending navigations...
+[1608403272.097][INFO]: Done waiting for pending navigations. Status: ok
+[1608403274.795][INFO]: Waiting for pending navigations...
+[1608403275.386][INFO]: Done waiting for pending navigations. Status: ok
+[1608403275.386][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] RESPONSE Navigate
+[1608403275.389][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] COMMAND DeleteAllCookies {
+
+}
+[1608403275.390][INFO]: Waiting for pending navigations...
+[1608403275.391][INFO]: Done waiting for pending navigations. Status: ok
+[1608403275.443][INFO]: Waiting for pending navigations...
+[1608403275.488][INFO]: Done waiting for pending navigations. Status: ok
+[1608403275.488][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] RESPONSE DeleteAllCookies
+[1608403276.158][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] COMMAND Quit {
+
+}
+[1608403276.210][INFO]: [faac9dc4a7760d0cd24ecab82cd92832] RESPONSE Quit

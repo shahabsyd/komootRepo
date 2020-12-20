@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="de.komoot.webdriver.util.listener.TestListener"/>
+        <listener class-name="de.komoot.webdriver.util.listener.AnnotationTransformer"/>
+    </listeners>
+    <test name="Search Overview Page">
+        <classes>
+            <class name="de.komoot.webdriver.homepage.SearchOverviewTest"/>
+        </classes>
+    </test>
+    <test name="Critical Paths">
+        <classes>
+            <class name="de.komoot.webdriver.homepage.popunder.IntentMediaTest"/>
+        </classes>
+    </test>
+    <test name="Login Page">
+        <classes>
+            <class name="de.komoot.webdriver.homepage.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>

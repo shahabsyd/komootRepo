@@ -1,0 +1,169 @@
+[1608402752.268][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 28631
+[1608402752.268][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1608402759.927][INFO]: [9acf3f2b31aa20dd216242cb1cb34bde] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/fromatob/Desktop/Komoot/build/downloads/1608402737260_89240_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/fromatob/Desktop/Komoot/build/downloads/1608402737260_89240_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1608402759.930][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/fromatob/Desktop/Komoot/build/downloads/1608402737260_89240_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1608402759.930][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1608402759.931][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/zz/7jtc3nnd5734sl33gwllk6m80000gn/T/.com.google.Chrome.qR2Pde data:,
+[1608402761.572][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1608402761.585][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1608402761.946][INFO]: [9acf3f2b31aa20dd216242cb1cb34bde] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "/var/folders/zz/7jtc3nnd5734sl33gwllk6m80000gn/T/.com.google.Chrome.qR2Pde"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64161"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9acf3f2b31aa20dd216242cb1cb34bde"
+}
+[1608402763.279][INFO]: [9acf3f2b31aa20dd216242cb1cb34bde] COMMAND MaximizeWindow {
+
+}
+[1608402763.279][INFO]: Waiting for pending navigations...
+[1608402763.281][INFO]: Done waiting for pending navigations. Status: ok
+[1608402763.413][INFO]: Waiting for pending navigations...
+[1608402763.415][INFO]: Done waiting for pending navigations. Status: ok
+[1608402763.416][INFO]: [9acf3f2b31aa20dd216242cb1cb34bde] RESPONSE MaximizeWindow {
+   "height": 777,
+   "width": 1280,
+   "x": 0,
+   "y": 23
+}
+[1608402763.537][INFO]: [9acf3f2b31aa20dd216242cb1cb34bde] COMMAND Navigate {
+   "url": "https://qa.frombat.net/en-GB/"
+}
+[1608402763.537][INFO]: Waiting for pending navigations...
+[1608402763.538][INFO]: Done waiting for pending navigations. Status: ok
+[1608402769.630][INFO]: Waiting for pending navigations...
+[1608402770.041][INFO]: Done waiting for pending navigations. Status: ok
+[1608402770.255][INFO]: Waiting for pending navigations...
+[1608402770.272][INFO]: Done waiting for pending navigations. Status: ok
+[1608402770.471][INFO]: Waiting for pending navigations...
+[1608402770.491][INFO]: Done waiting for pending navigations. Status: ok
+[1608402770.491][INFO]: [9acf3f2b31aa20dd216242cb1cb34bde] RESPONSE Navigate ERROR unknown error: net::ERR_SSL_PROTOCOL_ERROR
+  (Session info: chrome=87.0.4280.88)
