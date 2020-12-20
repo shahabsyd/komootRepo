@@ -48,10 +48,12 @@ public class HomePage extends BasePage {
 
     public void topManu() {
         menu.click();
+        sleep(2000);
     }
 
     public SettingsPage settingsLink() {
         settings.click();
+        sleep(2000);
         return new SettingsPage();
     }
 

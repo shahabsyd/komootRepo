@@ -49,5 +49,8 @@ public class SettingsPage extends BasePage {
         saveButton.click();
     }
 
+    public void clickCancel(){
+
+    }
 
 }

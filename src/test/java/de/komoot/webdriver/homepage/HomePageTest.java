@@ -23,25 +23,26 @@ public class HomePageTest extends TestCase {
         HomePage.openHomePage();
 
     }
-
+    String email = "sydshahab@gmail.com";
+    String password = "abc123";
+    String userName = "sam";
 
     @Test
     @Description("Sign Up with correct crendentials")
-    public void SignUp(){
+    public void SignUp() {
         LOGGER.info("the is my first test");
-        //Selenide.open("www.google.com");
-
-         hp.signUpLink();
-        //lp.enterEmailAddress("sydshahab@gmail.com");
-        //lp.clickContinueWithEmail();
-        //lp.enterUserName("sam");
-        //lp.enterPassword("abc123");
-        //lp.clickSignUpOrLoginButton();
+        hp.signUpLink();
+        lp.enterEmailAddress(email);
+        lp.clickContinueWithEmail();
+        lp.enterUserName(userName);
+        lp.enterPassword(password);
+        lp.clickSignUpOrLoginButton();
     }
 
     @Test
     @Description("Sign in with Correct Credentials")
-    public DiscoverPage login(){
+    public DiscoverPage login() {
+        LOGGER.info("Test login with valid credentials");
         hp.signUpLink();
         lp.enterEmailAddress("shahab2815.com");
         lp.enterPassword("abc123");

@@ -20,12 +20,12 @@ public class LoginPage extends BasePage {
 
     private final SelenideElement userName = $(By.id("display_name"));
     private final SelenideElement password = $(By.id("password"));
-    private final SelenideElement signUp = $x("//div[contains(text(),'Sign Up')]");
+    private final SelenideElement signUp = $x("//button[@type='submit']");
     private final SelenideElement emailField = $(By.id("email"));
     private final SelenideElement contWithEmail = $x("//div[contains(text(),'Continue with Email')]");
     private final SelenideElement gotoHomePage = $x("//a[contains(text(),'komoot')]");
     private final SelenideElement logoutLink = $x("//a[contains(@href,'logout')]/@href");
-
+    private final SelenideElement loginButton = $x("//div[contains(text() ,'Log In')]");
 
     @Step("Open login page")
     public LoginPage login() {
@@ -38,6 +38,7 @@ public class LoginPage extends BasePage {
     }
 
     public void enterEmailAddress(String email) {
+        LOGGER.info("Write Email: " + email);
         emailField.sendKeys(email);
     }
 
@@ -46,10 +47,14 @@ public class LoginPage extends BasePage {
     }
 
     public void enterUserName(String usrName) {
+        LOGGER.info("Write username: " + usrName);
+        userName.click();
         userName.sendKeys(usrName);
     }
 
     public void enterPassword(String pass) {
+        LOGGER.info("Write Password: " + pass);
+        password.click();
         password.sendKeys(pass);
     }
 
@@ -62,8 +67,14 @@ public class LoginPage extends BasePage {
     }
 
     public HomePage logOut() {
-        logoutLink.click();
+        if (logoutLink.isDisplayed()) {
+            logoutLink.click();
+        }
         return new HomePage();
+    }
+
+    public void clickLogin() {
+        loginButton.click();
     }
 
 
